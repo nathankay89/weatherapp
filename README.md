@@ -3,7 +3,7 @@
 
 ## Description 
 
-This app is designed to give you an 5 day forcast for any city you search 
+This app is designed to give you a 5 day forcast for any city you search 
 
 ## Screenshots 
 
