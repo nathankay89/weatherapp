@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Dashboard</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="container">
+    
+    <aside class="sidebar">
+      <form id="search-form">
+        <input type="text" id="city-input" placeholder="Enter a city">
+        <button type="submit">Search</button>
+      </form>
+
+      <section id="search-history">
+        <h2>Search History</h2>
+        <ul id="history-list">
+          <!-- SEARCH HISTORY ITEMS WILL BE STORED HERE -->
+        </ul>
+      </section>
+    </aside>
+    <main>
+        <header>
+            <h1>Weather Dashboard</h1>
+          </header>
+      <section id="current-weather">
+        <h2>Current Weather</h2>
+        <div id="current-weather-container">
+          <!-- CURRENT WEATHER DATA -->
+        </div>
+      </section>
+      <section id="forecast">
+        <h2>5-Day Forecast:</h2>
+        <div id="forecast-container">
+          <!-- FORECAST DATA GOES HERE -->
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="./scripts/index.js"></script>
+</body>
+</html>

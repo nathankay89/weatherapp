@@ -1,0 +1,134 @@
+/* GLOBAL */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2 {
+    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  /* SIDEBAR */
+  .sidebar {
+    width: 250px;
+    background-color: #fffefe;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+
+  
+  .sidebar h2 {
+    margin-bottom: 10px;
+  }
+  
+  #history-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #history-list li {
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  
+  #history-list li:hover {
+    text-decoration: underline;
+  }
+  
+  #search-form {
+    margin-bottom: 20px;
+     
+  }
+  
+  #city-input {
+    width: 93%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #f5e3e3;
+    margin-right: 20px;
+  }
+  
+  #search-form button {
+    width: 100%;
+    padding: 8px 12px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #search-form button:hover {
+    background-color: #1d456f;
+  }
+
+  #history-list li{
+    padding: 10px 10px;
+    background-color: #193f69;
+    color: #fff;
+  }
+  
+  /* MAIN SECTION */
+  main {
+    flex: 1;
+    padding: 20px;
+  }
+
+  main header {
+    margin-bottom: 100px;
+    text-align: center;
+    background-color: #0056b3;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  section h2 {
+    margin-bottom: 10px;
+  }
+  
+  /* CURRENT WEATHER */
+  #current-weather-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    border: solid 1px grey;
+  }
+  
+  #current-weather-container span {
+    display: flex;
+    
+  }
+
+  #current-weather-container span img {
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+  
+  /* FORECAST */
+  #forecast-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .forecast-card {
+    flex-basis: 18%;
+    padding: 10px;
+    background-color: darkblue;
+    border-radius: 15px;
+    color: white;
+  }
+  
